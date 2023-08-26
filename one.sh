@@ -4,7 +4,7 @@ do
 	echo "{'now':'$now'}" > data.js
 	git add data.js
 	git commit -m "Commit at $now milliseconds"
-	echo "$i/1000"
+	echo "$i/200000"
 	sleep 0.001
 done
 git push origin main
