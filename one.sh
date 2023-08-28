@@ -1,11 +1,10 @@
-for i in {1..200000}
+for i in {1..3600}
 do
-	now=$(date +%s%3N)
+	now=$(date)
 	echo "{'now':'$now'}" > data.js
 	git add data.js
 	git commit -m "Commit at $now milliseconds"
-	echo "$i/200000"
-	sleep 0.001
+	echo "$i/3600"
+	sleep 1
 done
-git push origin main
 echo "[OK] you are the first on commits.top in your country..."
