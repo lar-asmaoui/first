@@ -7,5 +7,5 @@ do
 	echo "$i/1000"
 	sleep 1
 done
-git push origin master
+git push origin main
 echo "[OK] you are the first on commits.top in your country..."
