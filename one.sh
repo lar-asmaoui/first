@@ -1,4 +1,4 @@
-for j in {1..10}
+for j in {1..40}
 do
 	for i in {1..1000}
 	do
